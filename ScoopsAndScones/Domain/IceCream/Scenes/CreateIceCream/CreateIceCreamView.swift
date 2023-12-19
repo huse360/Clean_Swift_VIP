@@ -32,10 +32,6 @@
 
 import SwiftUI
 
-protocol CreateIceCreamBusinessLogic {
-  func loadIceCream(request: CreateIceCream.LoadIceCream.Request)
-}
-
 extension CreateIceCreamView {
   func fetchIceCream() {
     let request = CreateIceCream.LoadIceCream.Request()
