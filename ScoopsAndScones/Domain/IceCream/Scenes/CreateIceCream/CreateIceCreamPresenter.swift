@@ -1,9 +1,5 @@
 import Foundation
 
-protocol CreateIceCreamDisplayLogic {
-  func displayIceCream(viewModel: CreateIceCream.LoadIceCream.ViewModel)
-}
-
 protocol CreateIceCreamPresentationLogic {
   func presentIceCream(response: CreateIceCream.LoadIceCream.Response)
 }
